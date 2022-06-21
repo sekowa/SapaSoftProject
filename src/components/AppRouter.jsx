@@ -8,7 +8,7 @@ function AppRouter() {
     <Routes>
       <Route path="about/*" element={<About />} />
 
-      <Route path="posts/*" element={<Posts />} />
+      <Route path="/*" element={<Posts />} />
       <Route path="post/*" element={<PostIdPages />} />
     </Routes>
   );
